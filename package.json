@@ -1,0 +1,32 @@
+{
+  "name": "hw01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon contacts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitamulia/node-hw01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikitamulia/node-hw01/issues"
+  },
+  "homepage": "https://github.com/nikitamulia/node-hw01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "nanoid": "^4.0.0",
+    "resolve": "^1.22.1",
+    "yargs": "^17.6.2"
+  }
+}
